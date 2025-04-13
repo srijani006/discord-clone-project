@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord Clone</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Whitney:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="dark-theme">
+    <div class="app">
+      <div class="server-sidebar">
+        <div class="server-icon active discord-logo">
+            <i class="fab fa-discord"></i>
+          </div>
+          <div class="divider"></div>
+        <div class="server-icon">
+            <i class="fa-solid fa-circle-user"></i>
+        </div>
+        <div class="server-icon">
+            <i class="fa-solid fa-circle-user"></i>
+        </div>
+        <div class="server-icon add">
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="server-icon explore">
+          <i class="fas fa-compass"></i>
+        </div>
+        <div class="divider"></div>
+        <div class="server-icon download">
+          <i class="fas fa-download"></i>
+        </div>
+      </div>
+    <div class="channel-sidebar">
+      <div class="server-header">
+        <h3>Discord Server</h3>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+      
+      <div class="channels-container">
+        <div class="channel-group">
+          <div class="channel-group-header">
+            <i class="fas fa-chevron-down"></i>
+            <span>TEXT CHANNELS</span>
+            <i class="fas fa-plus-circle add-channel"></i>
+          </div>
+          <div class="channels">
+            <div class="channel">
+              <i class="fas fa-hashtag"></i>
+              <span>welcome</span>
+            </div>
+            <div class="channel">
+              <i class="fas fa-hashtag"></i>
+              <span>announcements</span>
+            </div>
+            <div class="channel active">
+              <i class="fas fa-hashtag"></i>
+              <span>general</span>
+            </div>
+            <div class="channel">
+              <i class="fas fa-hashtag"></i>
+              <span>questions</span>
+            </div>
+            <div class="channel">
+              <i class="fas fa-hashtag"></i>
+              <span>resources</span>
+            </div>
+            <div class="channel">
+              <i class="fas fa-hashtag"></i>
+              <span>showcase</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="channel-group">
+          <div class="channel-group-header">
+            <i class="fas fa-chevron-down"></i>
+            <span>VOICE CHANNELS</span>
+          </div>
+          <div class="channels">
+            <div class="channel">
+              <i class="fas fa-volume-up"></i>
+              <span>General Voice</span>
+            </div>
+            <div class="channel">
+              <i class="fas fa-volume-up"></i>
+              <span>Chill Lounge</span>
+            </div>
+            <div class="channel">
+              <i class="fas fa-volume-up"></i>
+              <span>Gaming</span>
+            </div>
+            <div class="channel">
+              <i class="fas fa-volume-up"></i>
+              <span>Music</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="user-panel">
+        <div class="user-info">
+          <div class="avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="user-name">
+            <div class="username">Xion</div>
+            <div class="tag">invisible</div>
+          </div>
+        </div>
+        <div class="user-controls">
+          <div class="control-icon">
+            <i class="fas fa-microphone"></i>
+          </div>
+          <div class="control-icon">
+            <i class="fas fa-headphones"></i>
+          </div>
+          <div class="control-icon">
+            <i class="fas fa-cog"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-area">
+      <div class="chat-header">
+        <div class="chat-header-left">
+          <i class="fas fa-hashtag"></i>
+          <span>general</span>
+        </div>
+        <div class="chat-header-right">
+          <div class="header-icon"><i class="fas fa-bell"></i></div>
+          <div class="header-icon"><i class="fas fa-thumbtack"></i></div>
+          <div class="header-icon"><i class="fas fa-users"></i></div>
+          <div class="search-container">
+            <input type="text" placeholder="Search">
+          </div>
+          <div class="header-icon"><i class="fas fa-inbox"></i></div>
+          <div class="header-icon"><i class="fas fa-question-circle"></i></div>
+        </div>
+      </div>
+
+      <div class="messages-container">
+        <div class="welcome-message">
+          <div class="welcome-icon">
+            <i class="fas fa-hashtag"></i>
+          </div>
+          <div class="welcome-info">
+            <h2>Welcome to #general</h2>
+            <p>This is the start of the #general channel.</p>
+          </div>
+        </div>
+        
+        <div class="date-divider">
+          <span>Today</span>
+        </div>
+
+        <div class="message">
+          <div class="message-avatar">
+            <i class="fa-solid fa-circle-user"></i>
+          </div>
+          <div class="message-content">
+            <div class="message-header">
+              <span class="message-username">Xion</span>
+              <span class="message-time">Today at 12:00 PM</span>
+            </div>
+            <div class="message-text">Welcome to our Discord clone! This is a sample message.</div>
+          </div>
+        </div>
+
+        <div class="message">
+          <div class="message-avatar">
+            <i class="fa-solid fa-circle-user"></i>
+          </div>
+          <div class="message-content">
+            <div class="message-header">
+              <span class="message-username">User123</span>
+              <span class="message-time">Today at 12:05 PM</span>
+            </div>
+            <div class="message-text">Hey everyone! This looks really cool.</div>
+          </div>
+        </div>
+
+        <div class="message">
+          <div class="message-avatar">
+            <i class="fa-solid fa-circle-user"></i>
+          </div>
+          <div class="message-content">
+            <div class="message-header">
+              <span class="message-username">WebDev</span>
+              <span class="message-time">Today at 12:10 PM</span>
+            </div>
+            <div class="message-text">I love how this UI looks just like Discord!</div>
+          </div>
+        </div>
+
+        <div class="message">
+          <div class="message-avatar">
+            <i class="fa-solid fa-circle-user"></i>
+          </div>
+          <div class="message-content">
+            <div class="message-header">
+              <span class="message-username">Xion</span>
+              <span class="message-time">Today at 12:15 PM</span>
+            </div>
+            <div class="message-text">Thanks! Let me know if you'd like to see any other features added.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-input-container">
+        <div class="message-input-wrapper">
+          <div class="message-input-icon">
+            <i class="fas fa-plus-circle"></i>
+          </div>
+          <textarea class="message-input" placeholder="Message #general"></textarea>
+          <div class="message-input-actions">
+            <div class="action-icon"><i class="fas fa-gift"></i></div>
+            <div class="action-icon"><i class="fas fa-file-image"></i></div>
+            <div class="action-icon"><i class="fas fa-sticky-note"></i></div>
+            <div class="action-icon"><i class="far fa-smile"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="members-list">
+      <div class="member-group">
+        <div class="member-group-header">ONLINE—3</div>
+        <div class="member">
+          <div class="member-avatar">
+            <div class="avatar">
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+            <div class="status online"></div>
+          </div>
+          <div class="member-info">
+            <div class="member-name">Xion</div>
+            <div class="member-activity">Building Discord Clone</div>
+          </div>
+        </div>
+        <div class="member">
+          <div class="member-avatar">
+            <div class="avatar">
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+            <div class="status online"></div>
+          </div>
+          <div class="member-info">
+            <div class="member-name">User123</div>
+          </div>
+        </div>
+        <div class="member">
+          <div class="member-avatar">
+            <div class="avatar">
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+            <div class="status idle"></div>
+          </div>
+          <div class="member-info">
+            <div class="member-name">WebDev</div>
+            <div class="member-activity">Visual Studio Code</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member-group">
+        <div class="member-group-header">OFFLINE—2</div>
+        <div class="member">
+          <div class="member-avatar">
+            <div class="avatar">
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+            <div class="status offline"></div>
+          </div>
+          <div class="member-info">
+            <div class="member-name">Designer</div>
+          </div>
+        </div>
+        <div class="member">
+          <div class="member-avatar">
+            <div class="avatar">
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+            <div class="status offline"></div>
+          </div>
+          <div class="member-info">
+            <div class="member-name">Gamer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
